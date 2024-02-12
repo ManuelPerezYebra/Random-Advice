@@ -1,1 +1,4 @@
-// Aquí van los getElementById y los querySelectorAll que pondrías al principio.
+const adviceIdElement = document.getElementById('idNumber');
+const randomAdviceElement = document.getElementById('randomAdvice');
+const adviceButtonElement = document.getElementById('adviceButton');
+export { adviceIdElement, randomAdviceElement, adviceButtonElement };
